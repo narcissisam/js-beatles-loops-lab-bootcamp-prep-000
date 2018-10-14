@@ -20,11 +20,11 @@ while (i < facts.length){
 return newFacts;
 }
 
-function iLoveTheBeatles(i) {
+function iLoveTheBeatles(n) {
   var array = [];
   do {
     array.push = "I love the Beatles!";
-    i++;
-  } while (i < 15);
+    n++;
+  } while (n < 15);
   return array;
 }
